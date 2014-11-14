@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
 	public class Solution {
 	    public static ArrayList<ArrayList<Integer>> threeSum(int[] num) {
 	        if(num.length < 3 || num == null)
@@ -49,4 +48,3 @@ public class Solution {
 	        return result;
 	    }
 	}
-}
