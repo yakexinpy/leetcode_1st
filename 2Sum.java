@@ -34,8 +34,4 @@ public class Solution {
         return new int[0];
     }
 	
-	public static void main(String[] args){
-		int[] array = {3,2,4};
-		System.out.print(Arrays.toString(twoSum(array, 6)));
-	}
 }
