@@ -34,7 +34,6 @@ public class Solution {
                     count = 0;
                 }
             }
-            
             index++;
         }
         
