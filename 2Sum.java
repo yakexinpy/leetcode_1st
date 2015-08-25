@@ -30,7 +30,6 @@ public class Solution {
                 return result;
             }
         }
-        
         return new int[0];
     }
 	
