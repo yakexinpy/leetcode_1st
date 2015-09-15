@@ -1,6 +1,6 @@
 public class Solution {
     public String addBinary(String a, String b) {
-        if(a == null || a == "")
+        if(a == null || a == "") 
             return b;
         if(b == null || b == "")
             return a; 
