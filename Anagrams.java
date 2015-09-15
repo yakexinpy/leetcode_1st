@@ -26,7 +26,7 @@ public class Solution {
         while(iter.hasNext()){
             List<String> array = (ArrayList<String>)iter.next();
             if(array.size() > 1)
-                ret.addAll(array);
+                ret.addAll(array); 
         }
         return ret;
     }
