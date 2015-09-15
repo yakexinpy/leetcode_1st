@@ -3,7 +3,7 @@ public class Solution {
         if(a == null || a == "") 
             return b;
         if(b == null || b == "")
-            return a; 
+            return a;
             
         String result = "";
         int alen = a.length();
