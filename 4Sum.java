@@ -12,7 +12,6 @@ public class Solution {
             ArrayList<ArrayList<Integer>> sum3 = threeSum(num, i - 1, target - num[i]);
             result.addAll(sum3);
         }
-        
         return result;
     }
     
