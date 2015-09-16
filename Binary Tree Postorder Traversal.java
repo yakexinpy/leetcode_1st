@@ -22,7 +22,7 @@ public class Solution {
         	//TreeNode node = stack.peek();
             while(node != null && node.left != null){
                 stack.push(node.left);
-                node = node.left;
+                node = node.left; 
             }
             
             node = stack.peek();
