@@ -34,7 +34,6 @@ public class BSTIterator {
             while(stack.peek().left != null)
                 stack.push(stack.peek().left);
         }
-            
         return res.val;
     }
 }
