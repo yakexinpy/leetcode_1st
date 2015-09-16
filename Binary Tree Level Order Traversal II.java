@@ -38,6 +38,6 @@ public class Solution {
                 list = new ArrayList<Integer>();
             }
         }
-        return result;
+        return result;   
     }
 }
