@@ -9,7 +9,7 @@ public class Solution {
         for(int i = len - 1; i > -1; i--){
             max = Math.max(max, prices[i]);
             profits[i] = Math.max(profits[i + 1], max - prices[i]);
-        }
+        } 
         
         int min = max;
         int maxProf = 0;
