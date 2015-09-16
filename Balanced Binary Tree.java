@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class Solution { 
     class Result{
         boolean res;
         int depth;
