@@ -8,7 +8,7 @@
  * }
  */
 public class Solution { 
-    class Result{
+    class Result{    
         boolean res;
         int depth;
         
