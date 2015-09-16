@@ -9,7 +9,6 @@ public class Solution {
             if(df > 0)
                 profit += df;
         }
-        
         return profit;
     }
 }
