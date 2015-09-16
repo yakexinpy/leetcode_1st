@@ -23,7 +23,7 @@ public class Solution {
         while(l < r){
             if(num[l] + num[r] == target)
                 return 0;
-            int d = num[l] + num[r] - target;
+            int d = num[l] + num[r] - target; 
             if(Math.abs(d) < Math.abs(diff))
                 diff = d;
             if(d > 0)
